@@ -5,7 +5,7 @@ OLM_FOLDER=$ROOT/deploy/olm-catalog/datadog-operator
 IMAGE_NAME='datadog/operator'
 REDHAT_REGISTRY='registry.connect.redhat.com/'
 REDHAT_IMAGE_NAME="${REDHAT_REGISTRY}${IMAGE_NAME}"
-ZIP_FILE_NAME=$ROOT/tmp/olm-redhat-bundle.zip
+ZIP_FILE_NAME=$ROOT/dist/olm-redhat-bundle.zip
 
 WORK_DIR=$(mktemp -d -p $ROOT/tmp)
 
